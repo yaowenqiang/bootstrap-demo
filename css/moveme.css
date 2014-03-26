@@ -1,3 +1,28 @@
+html,body{
+    font-family:'Lato',sans-serif;
+    font-weight:300;<`2`>
+    line-height:1.7;
+    background-color:#eeefe9;
+}
+h1,h2,h3,h4{
+    font-family:"Abel",sans-serif;
+}
+b,strong{
+    font-weight:400;
+}
+.carousel-caption{
+    z-index:10;
+}
+.carousel-inner > .item > img {
+    position:absolute;
+    top:50px;
+    left:0px;
+    min-width:100%;
+    height:auto;
+}
+.carousel-inner > .item{
+    height:500px;
+}
 .intro-block{
     background:url(../images/purpalt.png) repeat;
     padding:100px 15px 66px;
@@ -41,4 +66,9 @@ hr{
 }
 .ft_space {
     padding:0 10px;
+}
+@media (min-width:768px) {
+    .carousel-inner > .item{
+        height:700px;
+    }
 }
