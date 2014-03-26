@@ -35,6 +35,9 @@ b,strong{
 .tpad{
     padding-top:20px;
 }
+.padded {
+    padding:100px 15px;
+}
 .marketing{
     background-color:#e9e5df;
 }
